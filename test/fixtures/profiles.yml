@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  resume: MyText
+  interest: MyText
+  goals: MyString
+  languages: MyText
+  photo: MyString
+
+two:
+  resume: MyText
+  interest: MyText
+  goals: MyString
+  languages: MyText
+  photo: MyString

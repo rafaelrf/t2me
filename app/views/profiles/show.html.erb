@@ -1,0 +1,27 @@
+<p>
+  <strong>Resume:</strong>
+  <%= @profile.resume %>
+</p>
+
+<p>
+  <strong>Interest:</strong>
+  <%= @profile.interest %>
+</p>
+
+<p>
+  <strong>Goals:</strong>
+  <%= @profile.goals %>
+</p>
+
+<p>
+  <strong>Languages:</strong>
+  <%= @profile.languages %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @profile.photo %>
+</p>
+
+<td><%= link_to 'Edit', edit_profile_path(@profile) %></td>
+<%= link_to 'Back', profiles_path %>
